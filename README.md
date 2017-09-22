@@ -1,4 +1,4 @@
-# Anagram-Modelling
+# Anagram Modelling
 An interesting problem is to print out all the anagrams of a given word.  That is, given an N-letter word with all letters different, print all the "words" you can form using each letter once, regardless of whether they are actual words in some language.  The number of such rearrangements is N-factorial where N is the number of letters.  The problem can be solved in several different ways, one of which uses one queue and one stack.  We illustrate the process here and leave the coding as a major programming project.
 
 Say the word is abcdefgh and you have just printed ehcgfdba. The very next word in alphabetical order that you can form with those eight letters is ehdabcfg (compare the two to see why). The way one iteration of the main loop of the process goes from a stack 
